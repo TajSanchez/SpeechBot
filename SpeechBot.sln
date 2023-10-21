@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechBotDesktop", "SpeechBotDesktop\SpeechBotDesktop.csproj", "{CC741E9F-6173-4028-B01F-95A77F493725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC741E9F-6173-4028-B01F-95A77F493725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC741E9F-6173-4028-B01F-95A77F493725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC741E9F-6173-4028-B01F-95A77F493725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC741E9F-6173-4028-B01F-95A77F493725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D2090A9-D6AB-43BE-A7CC-9CD659FDF9B0}
+	EndGlobalSection
+EndGlobal
