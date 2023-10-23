@@ -21,7 +21,7 @@ namespace SpeechBotDesktop
         {
             InitializeComponent();
             listener.SetInputToDefaultAudioDevice();
-            listener.LoadGrammarAsync(new Grammar(new GrammarBuilder(new Choices("hello", "how are you", "Nice weather today", "My name is Taj"))));
+            listener.LoadGrammarAsync(new Grammar(new GrammarBuilder(new Choices("hello", "how are you", "Nice weather today", "My name is Taj", "I am 31 years old"))));
             //EventHandler<SpeechRecognizedEventArgs> speech_recognized = Speech_Recognized();
             listener.SpeechRecognized += new EventHandler<SpeechRecognizedEventArgs>(Speech_Recognized);
         }
